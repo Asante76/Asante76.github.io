@@ -49,5 +49,7 @@ sr.reveal('.about__text',{delay: 400});
 /*scroll portfolio*/
 sr.reveal('.work__img',{interval: 200}); 
 
-/*scroll contact*/
-sr.reveal('.contact__input',{interval: 200}); 
+/*scroll contact footer*/
+sr.reveal('.footer__title',{interval: 200}); 
+sr.reveal('.footer__social',{interval: 500});
+sr.reveal('.skills', {interval:800});
