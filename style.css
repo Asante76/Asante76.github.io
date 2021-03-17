@@ -295,6 +295,10 @@ img{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
 }
+.footer__title:hover{
+transition-timing-function: ease-in;
+color: #4070f7;  
+}
 .footer__social{
   margin-bottom: var(--mb-4);
 }
