@@ -220,6 +220,11 @@ span.orange {
   top: 2rem;
   background-color: var(--secondary-greenish);
 }
+
+a.nav__link span.purple {
+  color: #42E6A4;
+}
+
 .nav__logo {
   color: var(--second-color);
 }
