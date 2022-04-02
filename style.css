@@ -138,6 +138,11 @@ body {
 
 /*---- layout ----*/
 
+.container {
+  padding: 0 15em 2em;
+  margin: 3em auto;
+}
+
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -159,6 +164,87 @@ body {
   background-color:  var(--primary-beige);
   box-shadow: 0 1px 4px rgba(155, 153, 48, 0.15);
 }
+
+/* about section cv */
+
+.id {
+  margin: 0 0 1em;
+}
+
+.about_box {
+  margin: 5em 0 5em;
+}
+
+.nav__list_about {
+  display: flex;
+  position: relative;
+  right: .7em;
+}
+
+.nav_link_about {
+  background-color: var(--secondary-orange);
+  padding: 1em 0;
+  text-align: center;
+  border-radius: 20px;
+  margin: 5px;
+  justify-content: flex-start;
+  float: right;
+  width: 120px;
+}
+
+.bg-yellow {
+  background-color: var(--secondary-orange);
+  padding: 1em 0;
+  text-align: center;
+  border-radius: 20px;
+  width: 120px;
+}
+
+.heading_p {
+  position: relative;
+  right: .3em;
+  display: inline-block;
+  margin: 0 0 1em;
+}
+
+.about_info {
+  font-weight: 100;
+  white-space: nowrap;
+  
+}
+.cv_icons {
+  margin: 1em 0 0;
+}
+span {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.about_container {
+  
+  display: flex;
+}
+
+.about_box_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv_img {
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 18%;
+}
+
+.about_text {
+  width: 60%;
+}
+
+/* skills */
+.skills_heading  {
+  margin: 1em 0 0;
+}
+
+/* ------ */
 
 /*--nav--*/
 
