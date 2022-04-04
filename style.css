@@ -295,7 +295,7 @@ span {
   background: #4158d0;
 }
 
-.circle .left .progress{
+.circle .left .progress {
   z-index: 1;
   animation: left 4s linear both;
 }
@@ -306,6 +306,22 @@ span {
   }
 }
 
+.circle .right {
+  transform: rotate(180deg);
+  z-index: 3;
+ 
+}
+
+.circle .right .progress{
+  animation: right 4s linear both;
+  animation-delay: 4s;
+}
+
+@keyframes right{
+  100%{
+    transform: rotate(180deg);
+  }
+}
 /* ------ */
 
 /*--nav--*/
