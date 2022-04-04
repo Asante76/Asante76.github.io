@@ -143,6 +143,11 @@ body {
   margin: 3em auto;
 }
 
+.flex {
+  display: flex;
+  gap: 1em;
+}
+
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -242,7 +247,7 @@ span {
 /* skills */
 
 .skills_heading  {
-  margin: 1em 0 0;
+  margin: 1em 0 2em;
 }
 
 /* progress/ circle */
@@ -251,7 +256,6 @@ span {
   height: 100px;
   width: 100px;
   position: relative;  
-  border: solid green 1px;
 }
 
 .circular .inner {
@@ -262,7 +266,7 @@ span {
   height: 80px;
   width: 80px;
   margin: -40px 0 0 -40px;
-  background: red;
+  background: var(--secondary-greenish);
   border-radius: 100%;
 }
 
@@ -274,7 +278,7 @@ span {
   z-index: 10;
   font-size: 18px;
   font-weight: 500;
-  color: #4158d0;
+  color: var(--primary-beige);
 }
 
 .circular .bar {
@@ -292,7 +296,7 @@ span {
   width: 100%;
   border-radius: 100%;
   clip: rect(0px, 50px, 100px, 0px);
-  background: #4158d0;
+  background: var(--secondary-orange);
 }
 
 .circle .left .progress {
@@ -312,15 +316,57 @@ span {
  
 }
 
-.circle .right .progress{
+.circle .right .progress {
   animation: right 4s linear both;
   animation-delay: 4s;
 }
 
 @keyframes right{
   100%{
+    transform: rotate(85deg);
+  }
+}
+
+/* second circle */
+
+.circle .leftie .progress {
+  z-index: 1;
+  animation: left 4s linear both;
+}
+
+@keyframes leftie{
+  100% {
     transform: rotate(180deg);
   }
+}
+
+.circle .rightie {
+  transform: rotate(180deg);
+  z-index: 3;
+ 
+}
+
+.circle .right .progress {
+  animation: right 4s linear both;
+  animation-delay: 4s;
+}
+
+@keyframes rightie{
+  100%{
+    transform: rotate(45deg);
+  }
+}
+
+/* Third circle */
+
+/* ----- */
+
+.progress_circle {
+  margin-left: 1em;
+}
+
+.skills_sets {
+  margin: 1em 0 0 ;
 }
 /* ------ */
 
