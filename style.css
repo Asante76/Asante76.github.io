@@ -214,8 +214,16 @@ body {
 
 .skills_heading {
   color: var(--secondary-greenish);
-  margin: 0 0 2em;
+  margin: 2em 0 2em;
   padding: 5px;
+  text-align: center;
+}
+
+.FE_skills {
+  display: flex;
+  justify-content: space-around;
+  max-width: 350px;
+  margin: 2em 0;
 }
 
 .circular {
@@ -322,7 +330,7 @@ body {
 } 
 
 .progress_circle {
-  margin-left: 1em;
+  width: 100%;
 }
 
 .skills_sets {
@@ -747,4 +755,15 @@ a.nav__link span.purple {
   .about_text {
     max-width: 900px;
   }
+
+  .skills_heading {
+    text-align: left;
+  }
+
+  .FE_skills {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin: 0 0 2em;
+   }
 }
