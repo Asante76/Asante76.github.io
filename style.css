@@ -741,4 +741,10 @@ a.nav__link span.purple {
   .home__img {
     right: 10%;
   }
+  
+  /* cv section */
+
+  .about_text {
+    max-width: 900px;
+  }
 }
