@@ -182,10 +182,11 @@ body {
 }
 
 .nav_link_about,
-.about_me,
-.about_container {
+.about_me {
   padding: 5px;
-  
+  position: relative;
+  top: .5em;
+  right: 6.5em;
 }
 
 .nav_link_about {
@@ -193,7 +194,7 @@ body {
 }
 
 .about_container {
-  margin: 1em 0 0 ;
+  margin: 12em 0 0 ;
 }
 
 .cv_icons {
